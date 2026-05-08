@@ -44,11 +44,3 @@ Das System ist als geschlossener Kreislauf konzipiert:
 | **Generator AI** | Design und Training eines Modells (z. B. VAE), das mathematisch valide 2D-Formen ausgibt; Export nach ONNX und Integration via Unity Sentis. |
 | **Validator AI** | Training eines ML-Agenten auf die Bewältigung unbekannter, dynamisch generierter Geometrien; Aufbau der "Shadow-Scene" zur Vorab-Prüfung. |
 | **Integration & Optimierung** | Verknüpfung beider KIs; Implementierung von asynchronen Prozessen (`Task.Run`), um Framerate-Einbrüche während der Inferenz zu verhindern. |
-
----
-
-## 4. Teamwork and Responsibilities
-
-*   **Teammitglied A (Engine & Geometry):** Verantwortlich für die Core-Game-Mechanics, die Physik-Engine und das System zur prozeduralen Erstellung von Meshes und Collidern aus KI-Daten.
-*   **Teammitglied B (AI Generator Engineer):** Verantwortlich für das Design, Training und den Export des generativen Modells, das die Geometrien "erfindet" (Python-Backend).
-*   **Teammitglied C (AI Validator & Integration):** Verantwortlich für das ML-Agents Training des Validators sowie die asynchrone Systemarchitektur innerhalb von Unity.
