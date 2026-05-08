@@ -21,7 +21,7 @@ Ein **"Generative-Adversarial-Validation" (GAV)** Framework innerhalb der Unity 
 **AI Assistance in Development:**
 *   **Unity Sentis:** Zur Ausführung des Generator-Modells (ONNX) direkt auf der GPU des Endnutzers.
 *   **Unity ML-Agents:** Zur Ausbildung des Validierungs-Agenten in einer beschleunigten Trainingsumgebung.
-*   **GitHub Copilot / ChatGPT:** Zur Unterstützung beim Schreiben der prozeduralen Mesh-Generierungsskripte in C#.
+*   **GitHub Copilot / Gemini:** Zur Unterstützung beim Schreiben der prozeduralen Mesh-Generierungsskripte in C#.
 
 ---
 
