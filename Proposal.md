@@ -10,6 +10,7 @@ Das Projekt gilt als erfolgreich, wenn:
 *   Das System im laufenden Betrieb neue, nicht-traversierbare Formen generiert, die sich in Höhe, Breite und Komplexität unterscheiden.
 *   Der Validierungs-Agent innerhalb von <150ms entscheidet, ob die erfundene Form mit der aktuellen Spieler-Geschwindigkeit physisch überwindbar ist.
 *   Ein flüssiger Spielablauf ohne spürbare Latenz durch die Hintergrund-Berechnungen der KI-Inferenz gewährleistet ist.
+*   Das Spiel muss für mehrere Minuten Spielbar sein ohne dass ein unüberwindbares Hinderniss kommt.
 
 **System/Feature to develop:**
 Ein **"Generative-Adversarial-Validation" (GAV)** Framework innerhalb der Unity Engine. Es besteht aus zwei Kernkomponenten:
