@@ -1,3 +1,4 @@
+
 # Project Proposal: On-the-fly Level-Erstellung und Validierung mit KI
 
 ## 1. Goal of the Project
@@ -26,14 +27,7 @@ Ein **"Generative-Adversarial-Validation" (GAV)** Framework innerhalb der Unity 
 
 ## 2. Architecture Diagram (Description)
 
-Das System ist als geschlossener Kreislauf konzipiert:
-
-1.  **AI Generator (Sentis/GPU):** Erhält einen Schwierigkeitsgrad-Input und generiert eine Liste von Koordinaten (Vertices).
-2.  **Procedural Mesh Runner:** Wandelt diese Daten in Echtzeit in ein Unity-Mesh inklusive `PolygonCollider2D` um.
-3.  **AI Validator (ML-Agents Inference):** In einer unsichtbaren Instanz prüft der Agent, ob der Sprung über dieses spezifische Mesh möglich ist.
-4.  **Game Engine Logic:** 
-    *   *Bei Erfolg:* Das Hindernis wird in den Pfad des Spielers geschoben.
-    *   *Bei Misserfolg:* Die Geometrie wird verworfen und ein neuer Generator-Zyklus gestartet.
+<img width="5923" height="7135" alt="GAV Framework Validation-2026-05-08-124939" src="https://github.com/user-attachments/assets/febdf13c-df03-48db-8a60-d2b53ff1f5e4" />
 
 ---
 
